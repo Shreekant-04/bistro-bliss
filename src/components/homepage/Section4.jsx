@@ -10,7 +10,7 @@ export const Section4 = () => {
       <h2 className="text-3xl font-playfair px-6 font-semibold text-[#2C2F24]">
         We also offer unique <br /> services for your events
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 px-6 mt-4 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-6 mt-4 ">
         <Card2
           image={image1}
           title="Catering"
