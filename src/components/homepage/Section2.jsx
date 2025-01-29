@@ -8,7 +8,7 @@ export const Section2 = () => {
   return (
     <section className="k w-full  px-4 py-8 flex flex-col  items-center gap-4 font-playfair text-4xl font-semibold">
       <h2>Browse Our Menu</h2>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 px-6">
+      <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 px-6">
         <Card
           icon={icon1}
           title="Breakfast"

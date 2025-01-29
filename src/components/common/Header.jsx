@@ -27,7 +27,7 @@ const Section1 = () => {
           href="tel:+91 9874563210"
           className="text-white flex items-center justify-center gap-2"
         >
-          <img src={phone} alt="Phone"  />
+          <img src={phone} alt="Phone" />
           <p className="hidden md:block">9874563210</p>
         </a>
         <a
@@ -35,20 +35,20 @@ const Section1 = () => {
           href="mailto:shreekant4062@gmail.com"
           className="text-white flex items-center justify-center gap-2"
         >
-          <img src={mail} alt="Mail"  />
+          <img src={mail} alt="Mail" />
           <p className="hidden md:block">shreekant4062@gmail.com</p>
         </a>
       </div>
 
       <div className="flex flex-wrap justify-center items-center gap-4 md:ml-auto">
         <a target="_blank" href="#" className="p-2">
-          <img src={img1} alt="img1"  />
+          <img src={img1} alt="img1" />
         </a>
         <a target="_blank" href="#" className="p-2">
-          <img src={img2} alt="img2"  />
+          <img src={img2} alt="img2" />
         </a>
         <a target="_blank" href="#" className="p-2">
-          <img src={img3} alt="img3"  />
+          <img src={img3} alt="img3" />
         </a>
         <a target="_blank" href="#" className="p-2">
           <img src={img4} alt="img4" />
@@ -119,46 +119,25 @@ const Section2 = () => {
           }`}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col md:flex-row md:space-x-8 p-4 md:p-0 mt-4 md:mt-0 font-medium border border-gray-100 rounded-lg bg-gray-50 md:border-0 md:bg-white">
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-blue-700 rounded md:bg-transparent md:p-0"
-              >
-                Home
-              </a>
+          <ul className="flex flex-col text-[#2C2F24] md:flex-row md:space-x- p-4 md:p-0 mt-4 md:mt-0  border border-gray-100 rounded-lg bg-gray-50 md:border-0 md:bg-white font-semibold">
+            <li className="hover:bg-[#DBDFD0] rounded-lg block text-[#2C2F24]   md:bg-transparent px-4 py-2 cursor-pointer">
+              Home
             </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
-              >
-                About
-              </a>
+            <li className="hover:bg-[#DBDFD0] rounded-lg block text-[#2C2F24]   md:bg-transparent px-4 py-2 cursor-pointer">
+              About
             </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
-              >
-                Services
-              </a>
+            <li className="hover:bg-[#DBDFD0] rounded-lg block text-[#2C2F24]   md:bg-transparent px-4 py-2 cursor-pointer">
+              Menu
             </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
-              >
-                Contact
-              </a>
+            {/* <li className="hover:bg-[#DBDFD0] rounded-lg block text-[#2C2F24]   md:bg-transparent px-4 py-2 cursor-pointer">
+              pages
+            </li> */}
+            <li className="hover:bg-[#DBDFD0] rounded-lg block text-[#2C2F24]   md:bg-transparent px-4 py-2 cursor-pointer">
+              Contact
             </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:hidden"
-              >
-                Book Table
-              </a>
+
+            <li className="block py-2 px-3 text-[#2C2F24] rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 md:hidden">
+              Book Table
             </li>
           </ul>
         </div>
