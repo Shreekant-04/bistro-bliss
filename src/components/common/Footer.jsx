@@ -89,12 +89,12 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <section className="w-full  flex  text-[#ADB29E]  justify-end  items-center gap-2 p-2 relative">
+      <section className="w-full  flex  text-[#ADB29E]  justify-end  items-center gap-2 p-2 relative ">
         <button
           onClick={() => window.scrollTo(0, 0)}
           className="flex flex-col justify-center items-center gap-2 border-white border-2 p-2 rounded-full h-36 w-36 "
         >
-          <img src={upImg} alt="upBtn" className="h-12 " />
+          <img src={upImg} alt="upBtn" className="h-12  " />
           <span>Back to top</span>
         </button>
       </section>
