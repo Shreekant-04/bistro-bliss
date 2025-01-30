@@ -1,5 +1,5 @@
 import bgImage from "../../assets/about/BG.png";
-import image2 from "../../assets/about/icon.png";
+import image2 from "../../assets/about/Icon.png";
 import image1 from "../../assets/about/restaurant-menu.png";
 import image3 from "../../assets/about/timer-1.png";
 
