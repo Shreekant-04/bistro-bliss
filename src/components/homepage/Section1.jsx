@@ -4,7 +4,7 @@ import bg from "../../assets/heroimg.png";
 //section 1
 export const Section1 = () => {
   return (
-    <section className="section1 h-[50vh] md:h-[85vh] w-full flex justify-center items-center relative mt-[16vh] md:mt-[12vh] lg:mt-[19vh]   ">
+    <section className="section1 h-[50vh] md:h-[85vh] w-full flex justify-center items-center relative ">
       <img
         src={bg}
         alt="hero"
