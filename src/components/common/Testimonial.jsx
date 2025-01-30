@@ -3,7 +3,7 @@ import profile2 from "../../assets/home-sec-6/2.png";
 import profile3 from "../../assets/home-sec-6/3.png";
 
 //section 6
-export const Section6 = () => {
+const Testimonial = () => {
   return (
     <section className="px-4 md:px-8 lg:px-16   py-12 w-full flex flex-col justify-center items-center gap-8 bg-[#FFF]">
       <h1 className="text-[#2C2F24] font-semibold font-playfair text-3xl md:text-4xl lg:text-5xl">
@@ -35,6 +35,7 @@ export const Section6 = () => {
     </section>
   );
 };
+
 // sec 6 / card
 const Card = ({ title, review, image, name, address }) => {
   return (
@@ -51,3 +52,5 @@ const Card = ({ title, review, image, name, address }) => {
     </div>
   );
 };
+
+export default Testimonial;

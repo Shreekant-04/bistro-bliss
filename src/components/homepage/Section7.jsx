@@ -5,7 +5,7 @@ import img4 from "../../assets/home-sec-7/4.png";
 import img5 from "../../assets/home-sec-7/5.png";
 
 //section 7
-export const Section7 = () => {
+ const Section7 = () => {
   return (
     <section className="p-4 lg:p-12 w-full flex flex-col justify-center items-center gap-4 relative bg-[#F9F9F7]">
       <h2 className="font-semibold font-playfair text-3xl md:text-4xl lg:text-5xl">
@@ -66,3 +66,10 @@ const Card = ({ image, date, title, description }) => {
     </div>
   );
 };
+
+
+import React from 'react';
+
+
+
+export default Section7;
