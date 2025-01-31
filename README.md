@@ -1,8 +1,64 @@
-# React + Vite
+# Bistro Bliss - Restaurant Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Bistro Bliss is a modern restaurant website built to showcase the restaurant's menu, ambiance, and services.
 
-Currently, two official plugins are available:
+## Features
+- Responsive design for all devices
+- Online menu display
+- Table reservation system
+- Contact information and location
+- Photo gallery
+- Customer reviews section
+- Special offers and events
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+
+## Installation
+1. Clone the repository
+```bash
+git clone https://github.com/Shreekant-04/bistro-bliss.git
+```
+2. Install dependencies
+```bash
+npm install
+```
+3. Run the development server
+```bash
+npm run dev
+```
+
+## Project Structure
+```
+bistro-bliss/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   └── styles/
+└── README.md
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## Contact
+- Website: [Bliss Bistro](https://bistro-bliss-04.vercel.app/)
+- Email: [shreekant4062@gmail.com]
+- GitHub: [https://github.com/Shreekant-04]
+
+## Future Enhancements
+- Blog Page: A dedicated space for sharing culinary stories, recipes, and restaurant news.
+- Admin Panel: Secure dashboard for managing content, reservations, and user interactions.
+- Backend Integration:
+    - Node.js and Express.js server
+    - MongoDB database
+    - User authentication
+    - Order management system
+    - Real-time booking updates

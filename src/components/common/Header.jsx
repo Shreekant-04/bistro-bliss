@@ -43,15 +43,23 @@ const Section1 = () => {
         </div>
 
         <div className="flex items-center gap-2 sm:gap-4">
-          {[img1, img2, img3, img4].map((img, index) => (
+          {[
+            { image: img1, Link: "#" },
+            { image: img2, Link: "#" },
+            { image: img3, Link: "#" },
+            {
+              image: img4,
+              Link: "https://github.com/Shreekant-04/bistro-bliss.git",
+            },
+          ].map((icon, index) => (
             <a
               key={index}
               target="_blank"
-              href="#"
+              href={icon.Link}
               className="p-1 sm:p-2 hover:opacity-80"
             >
               <img
-                src={img}
+                src={icon.image}
                 alt={`social-${index + 1}`}
                 className="w-4 h-4 sm:w-5 sm:h-5"
               />
