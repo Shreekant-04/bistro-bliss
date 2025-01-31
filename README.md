@@ -50,8 +50,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Contact
 - Website: [Bliss Bistro](https://bistro-bliss-04.vercel.app/)
-- Email: [shreekant4062@gmail.com]
-- GitHub: [https://github.com/Shreekant-04]
+- Email: shreekant4062@gmail.com
+- GitHub: https://github.com/Shreekant-04
 
 ## Future Enhancements
 - Blog Page: A dedicated space for sharing culinary stories, recipes, and restaurant news.
