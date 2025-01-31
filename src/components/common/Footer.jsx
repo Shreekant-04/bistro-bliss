@@ -28,7 +28,7 @@ const Footer = () => {
         </section>
 
         <p className="text-center text-sm/1 text-[#ADB29E] ">
-          &copy; 2025 Bliss Bistro. All Rights Reserved <br />
+          &copy; 2025 Bistro Bliss. All Rights Reserved <br />
           <a
             href="https://github.com/Shreekant-04/bistro-bliss.git"
             target="_blank"
@@ -49,7 +49,7 @@ const Section1 = () => {
       <a href="/" className="flex items-center space-x-3">
         <img src={image} className="h-8" alt="Bistro" />
         <span className=" text-2xl md:text-3xl font-bold italic whitespace-nowrap font-playfair">
-          Bliss Bistro
+        Bistro Bliss
         </span>
       </a>
       <p className="text-sm text-[#ADB29E] w-2/3">
