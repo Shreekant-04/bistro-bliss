@@ -81,7 +81,7 @@ const Section2 = () => {
         <Link to={"/"} className="flex items-center space-x-2 sm:space-x-3">
           <img src={icon} className="h-6 sm:h-8" alt="Bistro" />
           <span className="text-[#474747] text-xl sm:text-2xl md:text-3xl font-bold italic whitespace-nowrap font-playfair">
-            Bliss Bistro
+            Bistro Bliss
           </span>
         </Link>
 
