@@ -5,11 +5,55 @@
 
 * {
   scroll-behavior: smooth;
+  /* scrollbar-width: thin;
+  scrollbar-color: #2c2f24 #f9f9f7; */
 }
 
 .active {
   color: #3d3f38b0;
 }
-.not-active{
-  color: #2C2F24;
+.not-active {
+  color: #2c2f24;
+}
+ /* Firefox */
+/* *{
+  scrollbar-width: thin;
+  scrollbar-color: theme("colors.gray.600") transparent;
+}  */
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; /* For horizontal scrollbars */
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: theme("colors.gray.600");
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  transition: background 0.3s ease;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: theme("colors.gray.500");
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Buttons in the scrollbar (arrows pointing upwards and downwards) */
+*::-webkit-scrollbar-button {
+  display: none;
 }
