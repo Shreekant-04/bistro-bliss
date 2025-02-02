@@ -8,6 +8,7 @@ import instagram1 from "../../assets/footer/f1.png";
 import instagram2 from "../../assets/footer/f2.png";
 import instagram3 from "../../assets/footer/f3.png";
 import instagram4 from "../../assets/footer/f4.png";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -22,9 +23,9 @@ const Footer = () => {
       </section>
       <footer className="px-8 py-2  w-full flex flex-col justify-center items-center gap-8 relative bg-[#474747] ">
         <section className="flex flex-wrap justify-evenly items-center gap-12 text-white">
-          <Section1/>
-          <Section2/>
-          <Section3/>
+          <Section1 />
+          <Section2 />
+          <Section3 />
         </section>
 
         <p className="text-center text-sm/1 text-[#ADB29E] ">
@@ -49,7 +50,7 @@ const Section1 = () => {
       <a href="/" className="flex items-center space-x-3">
         <img src={image} className="h-8" alt="Bistro" />
         <span className=" text-2xl md:text-3xl font-bold italic whitespace-nowrap font-playfair">
-        Bistro Bliss
+          Bistro Bliss
         </span>
       </a>
       <p className="text-sm text-[#ADB29E] w-2/3">
@@ -79,28 +80,53 @@ const Section1 = () => {
 };
 
 const Section2 = () => {
+  const handleLinkClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className=" flex  gap-12 col-span-1">
       <div>
         <b>Pages</b>
         <ul className="flex flex-col gap-2 mt-2 text-[#DBDFD0]">
-          <li>Home</li>
-          <li>Menu</li>
-          <li>About</li>
-          <li>Reservation</li>
-          <li>Pricing</li>
-          <li>Blog</li>
-          <li>Contact</li>
-          <li>Delivery</li>
+          <Link to="/" onClick={handleLinkClick}>
+            Home
+          </Link>
+          <Link to="/menu" onClick={handleLinkClick}>
+            Menu
+          </Link>
+          <Link to="/about" onClick={handleLinkClick}>
+            About
+          </Link>
+          <Link to="/reservation" onClick={handleLinkClick}>
+            Reservation
+          </Link>
+          <Link to="/blog" onClick={handleLinkClick}>
+            Blog
+          </Link>
+          <Link to="/contact" onClick={handleLinkClick}>
+            Contact
+          </Link>
+          <Link to="/delivery" onClick={handleLinkClick}>
+            Delivery
+          </Link>
         </ul>
       </div>
       <div>
         <b>Utility Pages</b>
         <ul className="flex flex-col gap-2 mt-2 text-[#DBDFD0]">
-          <li>Terms & Conditions</li>
-          <li>Privacy Policy</li>
-          <li>Disclaimer</li>
-          <li>FAQ</li>
+          <Link to="/terms" onClick={handleLinkClick}>
+            Terms & Conditions
+          </Link>
+          <Link to="/privacy" onClick={handleLinkClick}>
+            Privacy Policy
+          </Link>
+          <Link to="/disclaimer" onClick={handleLinkClick}>
+            Disclaimer
+          </Link>
+          <Link to="/faq" onClick={handleLinkClick}>
+            FAQ
+          </Link>
         </ul>
       </div>
     </div>

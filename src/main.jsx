@@ -9,6 +9,10 @@ import NotFound from "./components/common/NotFound.jsx";
 import Menu from "./components/menu/Menu.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import BookTable from "./components/book/BookTable.jsx";
+import FaqPage from "./utilities/Faq.jsx";
+import Privacy from "./utilities/Privacy.jsx";
+import Terms from "./utilities/Terms.jsx";
+import Disclaimer from "./utilities/Disclaimer.jsx";
 
 const router = createBrowserRouter([
   {
@@ -32,7 +36,27 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
+        path: "faq",
+        element: <FaqPage />,
+      },
+      {
+        path: "privacy",
+        element: <Privacy />,
+      },
+      {
+        path: "terms",
+        element: <Terms />,
+      },
+      {
+        path: "disclaimer",
+        element: <Disclaimer />,
+      },
+      {
         path: "book-table",
+        element: <BookTable />,
+      },
+      {
+        path: "reservation",
         element: <BookTable />,
       },
       { path: "*", element: <NotFound /> },
