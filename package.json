@@ -1,7 +1,7 @@
 {
   "name": "bistro-bliss",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -60,5 +60,6 @@
     "restaurant ordering system"
   ],
   "figma": "https://www.figma.com/design/D5ABGCAfpPMgwedtokpMnS/Food---Website-Design-(Community)?m=auto&t=c03lX55x0E6Fjkfo-6",
-  "license": "MIT"
+  "live": "https://bistro-bliss-04.vercel.app/",
+  "license": "ISC"
 }
