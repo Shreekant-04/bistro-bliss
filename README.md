@@ -35,12 +35,23 @@ npm run dev
 ## Project Structure
 ```
 bistro-bliss/
+├── .github/
 ├── public/
 ├── src/
 │   ├── components/
-│   ├── pages/
+│   ├── utilities/
 │   ├── assets/
-│   └── styles/
+│   ├── index.css
+│   ├── Layout.jsx
+│   └── main.jsx
+├── .gitignore
+├── CODE_OF_CONDUCT.md
+├── eslint.config.js
+├── index.html
+├── LICENSE
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
 └── README.md
 ```
 
@@ -49,7 +60,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 ## Contact
-- Website: [Bliss Bistro](https://bistro-bliss-04.vercel.app/)
+- Website: [Bistro Bliss](https://bistro-bliss-04.vercel.app/)
 - Email: shreekant4062@gmail.com
 - GitHub: https://github.com/Shreekant-04
 
