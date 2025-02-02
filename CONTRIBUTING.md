@@ -7,36 +7,42 @@ Thank you for your interest in contributing to Bistro Bliss! Here's how you can 
 1. Fork the repository
 2. Clone your fork: `git clone https://github.com/your-username/bistro-bliss.git`
 3. Create a branch: `git checkout -b your-feature-name`
+4. Install dependencies: `npm install`
 
 ## Making Changes
 
-1. Ensure your code follows our style guidelines
-2. Write meaningful commit messages
+1. Follow our code style guidelines
+2. Write clear, descriptive commit messages
 3. Update documentation as needed
-4. Test your changes thoroughly
+4. Add tests for new features
+5. Run `npm test` to verify changes
 
 ## Pull Request Process
 
-1. Update the README.md with details of changes if needed
-2. Push to your fork and submit a pull request
-3. Wait for review and address any feedback
+1. Update README.md if needed
+2. Push to your fork
+3. Create a pull request
+4. Address review feedback promptly
 
 ## Code Style
 
-- Follow existing code patterns
-- Use meaningful variable names
-- Comment your code when necessary
-- Keep functions small and focused
+- Use ESLint configuration
+- Follow React best practices
+- Maintain component structure
+- Write meaningful comments
+- Keep components modular
 
 ## Reporting Issues
 
-- Use the GitHub issue tracker
-- Include detailed steps to reproduce
-- Specify your environment details
-- Attach screenshots if applicable
+- Use GitHub Issues
+- Provide reproduction steps
+- Include system details
+- Add relevant screenshots
+- Use issue templates
 
 ## Questions?
 
-Feel free to open an issue for any questions.
+Open an issue or join our discussions.
 
 Thank you for contributing!
+
