@@ -1,7 +1,7 @@
 # Bistro Bliss - Restaurant Website
 
 ## Overview
-Bistro Bliss is a modern restaurant website built to showcase the restaurant's menu, ambiance, and services.
+Bistro Bliss is a modern restaurant website built to showcase the restaurant's menu, ambiance, and services. 
 
 ## Features
 - Responsive design for all devices
