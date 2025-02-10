@@ -7,7 +7,7 @@ import image4 from "../../assets/home-sec-4/4.png";
 export const Section4 = () => {
   return (
     <section className="p-4 lg:p-12 w-full   bg-[#FFF]">
-      <h2 className="text-3xl font-playfair px-6 font-semibold text-[#2C2F24]">
+      <h2 className="text-2xl md:text-4xl font-playfair px-6 font-semibold text-[#2C2F24]">
         We also offer unique <br /> services for your events
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-6 mt-4 ">
@@ -38,12 +38,18 @@ export const Section4 = () => {
 // section 4.1 //card
 const Card2 = ({ image, title, desc }) => {
   return (
-    <div className="flex flex-col  items-center justify-evenly  gap-2 border  border-[#DBDFD0] px-4 py-10 rounded-xl ">
-      <div className="flex flex-col items-center justify-center gap-2">
-        <img src={image} alt="icon" />
-        <h3 className="text-xl font-semibold">{title}</h3>
+    <div className="flex flex-col items-center justify-between h-[400px] gap-4 border border-[#DBDFD0] px-4 py-6 rounded-xl">
+      <div className="flex flex-col items-center justify-center gap-4 w-full">
+        <div className="w-full h-[250px]">
+          <img 
+            src={image} 
+            alt="icon" 
+            className="rounded-lg  w-full h-full object-cover"
+          />
+        </div>
+        <h3 className="text-xl font-semibold text-center">{title}</h3>
       </div>
-      <p className=" md:text-sm text-left">{desc}</p>
+      <p className="md:text-sm text-center">{desc}</p>
     </div>
   );
 };
