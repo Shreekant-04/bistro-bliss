@@ -1,6 +1,6 @@
+import { Link } from "react-router";
 import bg from "../../assets/heroimg.png";
 
-// 7 sections of the homepage and footer
 //section 1
 export const Section1 = () => {
   return (
@@ -20,12 +20,12 @@ export const Section1 = () => {
           welcoming, culinary haven.
         </p>
         <div className="flex gap-2 md:gap-4">
-          <button className="bg-[#AD343E] text-white hover:text-black font-semibold border border-[#AD343E] px-4 py-2 md:px-6 md:py-4 rounded-full transition-all duration-300">
+          <Link to={"/book-table"} className="bg-[#AD343E] text-white hover:text-black font-semibold border border-[#AD343E] px-4 py-2 md:px-6 md:py-4 rounded-full transition-all duration-300">
             Book A Table
-          </button>
-          <button className="px-4 py-2 md:px-6 md:py-4 hover:text-[#AD343E] font-semibold rounded-full border border-black transition-all duration-300">
+          </Link>
+          <Link to={"/menu"} className="px-4 py-2 md:px-6 md:py-4 hover:text-[#AD343E] font-semibold rounded-full border border-black transition-all duration-300">
             Explore Menu
-          </button>
+          </Link>
         </div>
       </div>
     </section>
