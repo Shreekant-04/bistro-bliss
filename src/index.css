@@ -8,6 +8,9 @@
   /* scrollbar-width: thin;
   scrollbar-color: #2c2f24 #f9f9f7; */
 }
+:root {
+  --animation1--: scaleup 0.35s ease forwards;
+}
 
 .active {
   color: #3d3f38b0;
@@ -15,7 +18,7 @@
 .not-active {
   color: #2c2f24;
 }
- /* Firefox */
+/* Firefox */
 /* *{
   scrollbar-width: thin;
   scrollbar-color: theme("colors.gray.600") transparent;
@@ -56,4 +59,13 @@
 /* Buttons in the scrollbar (arrows pointing upwards and downwards) */
 *::-webkit-scrollbar-button {
   display: none;
+}
+
+@keyframes scaleup {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
 }

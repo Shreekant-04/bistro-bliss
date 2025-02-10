@@ -4,11 +4,11 @@ import image1 from "../../assets/img.png";
 export const Section5 = () => {
   return (
     <section className="px-4 md:px-8 lg:px-16   py-12 w-full flex flex-col lg:flex-row justify-center items-center gap-8 bg-[#FFF]">
-      <div className="h-auto lg:h-[80vmin] w-full lg:w-[50%] text-left flex flex-col gap-4 items-start justify-center  ">
+      <div className="h-auto lg:h-[80vmin] w-full lg:w-[50%] text-left flex flex-col gap-4 items-start justify-center   ">
         <img
           src={image1}
           alt="image1"
-          className="object-cover w-full h-full "
+          className="object-cover w-full h-full  rounded-lg "
         />
       </div>
       <div className="h-auto lg:h-full w-full lg:w-[40%] text-left flex flex-col gap-4 items-start justify-center p-4">
