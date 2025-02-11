@@ -13,6 +13,7 @@ import FaqPage from "./utilities/Faq.jsx";
 import Privacy from "./utilities/Privacy.jsx";
 import Terms from "./utilities/Terms.jsx";
 import Disclaimer from "./utilities/Disclaimer.jsx";
+import { Analytics } from "@vercel/analytics/react";
 
 const router = createBrowserRouter([
   {
@@ -67,5 +68,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <Analytics />
   </StrictMode>
 );
