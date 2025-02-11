@@ -14,6 +14,7 @@ import Privacy from "./utilities/Privacy.jsx";
 import Terms from "./utilities/Terms.jsx";
 import Disclaimer from "./utilities/Disclaimer.jsx";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const router = createBrowserRouter([
   {
@@ -69,5 +70,6 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
     <Analytics />
+    <SpeedInsights />
   </StrictMode>
 );
